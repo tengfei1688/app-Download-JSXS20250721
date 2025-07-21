@@ -7,10 +7,12 @@ import Screenshots from '@/components/Screenshots';
 import HowToUse from '@/components/HowToUse';
 import Download from '@/components/Download';
 import Contact from '@/components/Contact';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { GetStaticProps } from 'next';
 
 export default function Home() {
   return (
-    <Layout title="App Landing Page - 移动应用着陆页">
+    <Layout>
       <Hero />
       <About />
       <Features />
@@ -21,3 +23,11 @@ export default function Home() {
     </Layout>
   );
 }
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale || 'zh', ['common'])),
+    },
+  };
+};

@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
+import { useTranslation } from 'next-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 
 const Header = () => {
+  const { t } = useTranslation('common');
   // Component did mount effect to ensure we're running client-side
   useEffect(() => {
     // Add active class to navigation links based on scroll position
@@ -47,7 +50,7 @@ const Header = () => {
                 />
               </div>
               <a href="mailto:Info@youremail.com" className="text-sm text-white hover:text-primary transition-colors">
-                Info@youremail.com
+                {t('header.email')}
               </a>
             </div>
 
@@ -61,12 +64,13 @@ const Header = () => {
                 />
               </div>
               <a href="tel:+14805550103" className="text-sm text-white hover:text-primary transition-colors">
-                (480) 555-0103
+                {t('header.phone')}
               </a>
             </div>
           </div>
 
           <div className="flex space-x-4 justify-center items-center">
+            <LanguageSwitcher />
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Image
                 src="/images/facebook-icon.svg"
@@ -120,42 +124,42 @@ const Header = () => {
               href="#home"
               className="px-4 py-2 font-semibold text-primary uppercase hover:text-primary/70 transition-colors"
             >
-              Home
+              {t('header.nav.home')}
             </a>
             <a
               href="#about"
               // onClick={handleLinkClick}
               className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors cursor-pointer"
             >
-              About
+              {t('header.nav.about')}
             </a>
             <a
               href="#features"
               // onClick={handleLinkClick}
               className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors"
             >
-              Features
+              {t('header.nav.features')}
             </a>
             <a
               href="#screenshot"
               // onClick={handleLinkClick}
               className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors"
             >
-              Screenshot
+              {t('header.nav.screenshot')}
             </a>
             <a
               href="#how-to-use"
               // onClick={handleLinkClick}
               className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors"
             >
-              How To Use
+              {t('header.nav.howToUse')}
             </a>
             <a
               href="#download"
               // onClick={handleLinkClick}
               className="ml-4 py-2 px-6 bg-primary text-white font-semibold uppercase rounded-md hover:bg-primary/90 transition-colors cursor-pointer"
             >
-              Download
+              {t('header.nav.download')}
             </a>
           </div>
         </nav>

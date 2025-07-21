@@ -3,9 +3,13 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
-  output: "export",
   images: {
     unoptimized: true,
+  },
+  i18n: {
+    locales: ['zh', 'en'],
+    defaultLocale: 'zh',
+    localeDetection: false,
   },
 };
 

@@ -1,0 +1,51 @@
+{
+  "title": "App Landing Page - Mobile App Landing Page",
+  "description": "A great app makes your life better",
+  "header": {
+    "email": "Info@youremail.com",
+    "phone": "(480) 555-0103",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "features": "Features",
+      "screenshot": "Screenshot",
+      "howToUse": "How To Use",
+      "download": "Download"
+    }
+  },
+  "hero": {
+    "title": "A Great App Makes Your Life Better",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "downloadTitle": "Download App Now",
+    "downloadApple": "Download on Apple Store",
+    "downloadGoogle": "Get it on Google Play"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are committed to developing high-quality mobile applications to provide users with the best experience."
+  },
+  "features": {
+    "title": "Features",
+    "description": "Explore the powerful features of our app"
+  },
+  "screenshots": {
+    "title": "Screenshots",
+    "description": "View the beautiful interface of our app"
+  },
+  "howToUse": {
+    "title": "How To Use",
+    "description": "Simple steps to get started"
+  },
+  "download": {
+    "title": "Download",
+    "description": "Download now and start using"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "If you have any questions, please feel free to contact us"
+  },
+  "language": {
+    "switch": "中文",
+    "current": "English"
+  }
+}
