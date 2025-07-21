@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
+import { useTranslation } from 'react-i18next';
 
 
 const Header = () => {
+  const { t } = useTranslation();
+  
   // Component did mount effect to ensure we're running client-side
   useEffect(() => {
     // Add active class to navigation links based on scroll position
@@ -120,42 +123,42 @@ const Header = () => {
               href="#home"
               className="px-4 py-2 font-semibold text-primary uppercase hover:text-primary/70 transition-colors"
             >
-              Home
+              {t('navigation.home')}
             </a>
             <a
               href="#about"
               // onClick={handleLinkClick}
               className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors cursor-pointer"
             >
-              About
+              {t('navigation.about')}
             </a>
             <a
               href="#features"
               // onClick={handleLinkClick}
               className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors"
             >
-              Features
+              {t('navigation.features')}
             </a>
             <a
               href="#screenshot"
               // onClick={handleLinkClick}
               className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors"
             >
-              Screenshot
+              {t('navigation.screenshots')}
             </a>
             <a
               href="#how-to-use"
               // onClick={handleLinkClick}
               className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors"
             >
-              How To Use
+              {t('navigation.howToUse')}
             </a>
             <a
               href="#download"
               // onClick={handleLinkClick}
-              className="ml-4 py-2 px-6 bg-primary text-white font-semibold uppercase rounded-md hover:bg-primary/90 transition-colors cursor-pointer"
+              className="px-4 py-2 font-semibold text-secondary uppercase hover:text-primary transition-colors"
             >
-              Download
+              {t('navigation.download')}
             </a>
           </div>
         </nav>

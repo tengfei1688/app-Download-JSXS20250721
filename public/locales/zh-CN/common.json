@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "优质应用让生活更美好",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "downloadNow": "立即下载应用",
+    "downloadApple": "在App Store下载",
+    "downloadGoogle": "在Google Play获取"
+  },
+  "navigation": {
+    "home": "首页",
+    "about": "关于",
+    "features": "功能",
+    "screenshots": "截图",
+    "howToUse": "使用方法",
+    "download": "下载",
+    "contact": "联系我们"
+  },
+  "about": {
+    "title": "关于我们的应用",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+    "features": {
+      "creativeDesign": {
+        "title": "创意设计",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+      },
+      "easyToUse": {
+        "title": "易于使用",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+      },
+      "bestUX": {
+        "title": "最佳用户体验",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+      }
+    }
+  },
+  "layout": {
+    "title": "应用着陆页",
+    "description": "优质应用让生活更美好",
+    "language": "语言",
+    "switchToEnglish": "切换到英文",
+    "switchToChinese": "切换到中文"
+  },
+  "contact": {
+    "email": "邮箱",
+    "phone": "电话"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功"
+  }
+}
