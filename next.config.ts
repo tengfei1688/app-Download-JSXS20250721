@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  trailingSlash: true,
+  // Note: i18n routing is disabled for static export
+  // We'll handle i18n manually using next-i18next
 };
 
 export default nextConfig;

@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "优质应用让生活更美好",
+    "subtitle": "简约而不简单，最小的付出换来最大的收获。让您的数字体验变得更加高效、直观和愉悦。",
+    "downloadTitle": "立即下载应用",
+    "downloadApple": "App Store 下载",
+    "downloadGoogle": "Google Play 下载"
+  },
+  "navigation": {
+    "home": "首页",
+    "about": "关于",
+    "features": "功能",
+    "screenshots": "截图",
+    "howToUse": "使用方法",
+    "download": "下载",
+    "contact": "联系"
+  },
+  "about": {
+    "title": "关于我们的应用",
+    "description": "我们的应用致力于为用户提供最佳的移动体验。通过精心设计的界面和强大的功能，帮助您在日常生活中提高效率和享受便利。"
+  },
+  "features": {
+    "title": "主要功能",
+    "description": "发现我们应用的强大功能，让您的生活更加便捷高效。"
+  },
+  "screenshots": {
+    "title": "应用截图",
+    "description": "预览我们应用的精美界面设计。"
+  },
+  "howToUse": {
+    "title": "使用方法",
+    "description": "简单几步，轻松上手使用我们的应用。"
+  },
+  "download": {
+    "title": "下载应用",
+    "description": "立即下载，开始您的精彩体验之旅。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "有任何问题或建议？随时与我们联系。"
+  },
+  "footer": {
+    "copyright": "版权所有 © 2024。保留所有权利。"
+  },
+  "common": {
+    "languageSwitch": "切换语言",
+    "chinese": "中文",
+    "english": "English"
+  }
+}

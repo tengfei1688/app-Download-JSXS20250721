@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "title": "A Great App Makes Your Life Better",
+    "subtitle": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "downloadTitle": "Download App Now",
+    "downloadApple": "Download on Apple Store",
+    "downloadGoogle": "Get it on Google Play"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "howToUse": "How to Use",
+    "download": "Download",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Our App",
+    "description": "Our app is dedicated to providing users with the best mobile experience. Through carefully designed interfaces and powerful features, we help you improve efficiency and enjoy convenience in your daily life."
+  },
+  "features": {
+    "title": "Key Features",
+    "description": "Discover the powerful features of our app that make your life more convenient and efficient."
+  },
+  "screenshots": {
+    "title": "App Screenshots",
+    "description": "Preview the beautiful interface design of our app."
+  },
+  "howToUse": {
+    "title": "How to Use",
+    "description": "Simple steps to get started with our app easily."
+  },
+  "download": {
+    "title": "Download App",
+    "description": "Download now and start your amazing experience journey."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have any questions or suggestions? Feel free to contact us anytime."
+  },
+  "footer": {
+    "copyright": "Copyright © 2024. All rights reserved."
+  },
+  "common": {
+    "languageSwitch": "Switch Language",
+    "chinese": "中文",
+    "english": "English"
+  }
+}

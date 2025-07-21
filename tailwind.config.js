@@ -12,7 +12,22 @@ module.exports = {
         'text-muted': 'var(--text-muted)',
       },
       fontFamily: {
-        sans: ['Josefin Sans', 'sans-serif'],
+        sans: [
+          'Josefin Sans', 
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'PingFang SC',
+          'Hiragino Sans GB',
+          'Microsoft YaHei',
+          'Helvetica Neue',
+          'Helvetica',
+          'Arial',
+          'sans-serif',
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol'
+        ],
       },
       width: {
         '128': '32rem',

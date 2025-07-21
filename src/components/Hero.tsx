@@ -1,8 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 import Header from './Header';
+import { useTranslation } from '@/contexts/I18nContext';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="home" className="relative min-h-screen flex items-center">
       {/* Background Image */}
@@ -23,22 +26,20 @@ const Hero = () => {
             <div className="hidden md:block absolute top-0 left-20 w-160 h-100 border-[#7572FF] border-[18px]"></div>
             <div className="bg-white p-6 md:p-8 pb-8 md:pb-12 mb-6 md:ml-8 md:mt-8 z-10 md:absolute md:top-10 rounded-lg md:rounded-none shadow-lg md:shadow-none">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary uppercase leading-tight text-[#5956E9]">
-                A Great App Makes<br className="hidden sm:block" />Your Life Better
+                {t('hero.title')}
               </h1>
               <p className="text-gray-800 my-4 md:mb-8 max-w-xl">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
-                Velit officia consequat duis enim velit mollit. Exercitation veniam consequat 
-                sunt nostrud amet.
+                {t('hero.subtitle')}
               </p>
               <div>
                 <h3 className="text-xl md:text-2xl font-semibold text-secondary uppercase mb-4">
-                  Download App Now
+                  {t('hero.downloadTitle')}
                 </h3>
                 <div className="flex flex-row flex-wrap gap-4">
                   <a href="#" className="block w-60">
                     <Image 
                       src="/images/download-apple.png"
-                      alt="Download on Apple Store"
+                      alt={t('hero.downloadApple')}
                       width={120}
                       height={56}
                       className="w-full sm:w-auto h-auto"
@@ -47,7 +48,7 @@ const Hero = () => {
                   <a href="#" className="block w-60">
                     <Image 
                       src="/images/download-google.png"
-                      alt="Get it on Google Play"
+                      alt={t('hero.downloadGoogle')}
                       width={120}
                       height={56}
                       className="w-full sm:w-auto h-auto"

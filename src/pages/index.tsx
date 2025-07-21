@@ -7,10 +7,13 @@ import Screenshots from '@/components/Screenshots';
 import HowToUse from '@/components/HowToUse';
 import Download from '@/components/Download';
 import Contact from '@/components/Contact';
+import { useTranslation } from '@/contexts/I18nContext';
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
-    <Layout title="App Landing Page - 移动应用着陆页">
+    <Layout title={t('hero.title')} description={t('hero.subtitle')}>
       <Hero />
       <About />
       <Features />
