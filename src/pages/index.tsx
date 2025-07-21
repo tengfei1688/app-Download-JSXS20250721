@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import Layout from '@/components/Layout';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -9,8 +10,10 @@ import Download from '@/components/Download';
 import Contact from '@/components/Contact';
 
 export default function Home() {
+  const { t } = useTranslation();
+
   return (
-    <Layout title="App Landing Page - 移动应用着陆页">
+    <Layout title={t('layout.title')}>
       <Hero />
       <About />
       <Features />

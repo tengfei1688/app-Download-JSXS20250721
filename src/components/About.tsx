@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 interface FeatureProps {
   title: string;
@@ -26,30 +27,32 @@ const FeatureCard: React.FC<FeatureProps> = ({ title, description }) => {
 };
 
 const About: React.FC = () => {
+  const { t } = useTranslation();
+  
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold uppercase text-secondary text-center mb-6">About Our App</h2>
+        <h2 className="text-3xl font-bold uppercase text-secondary text-center mb-6">
+          {t('about.title')}
+        </h2>
         <p className="text-gray-500 text-center max-w-2xl mx-auto mb-16">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. 
-          Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. 
-          Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+          {t('about.description')}
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <div className="space-y-6">
               <FeatureCard 
-                title="Creative Design"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+                title={t('about.features.creativeDesign.title')}
+                description={t('about.features.creativeDesign.description')}
               />
               <FeatureCard 
-                title="Easy to Use"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+                title={t('about.features.easyToUse.title')}
+                description={t('about.features.easyToUse.description')}
               />
               <FeatureCard 
-                title="Best User Experience"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+                title={t('about.features.bestUX.title')}
+                description={t('about.features.bestUX.description')}
               />
             </div>
           </div>

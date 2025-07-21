@@ -12,7 +12,21 @@ module.exports = {
         'text-muted': 'var(--text-muted)',
       },
       fontFamily: {
-        sans: ['Josefin Sans', 'sans-serif'],
+        sans: [
+          'Josefin Sans', 
+          '-apple-system', 
+          'BlinkMacSystemFont', 
+          '"Segoe UI"', 
+          'Roboto', 
+          '"Helvetica Neue"', 
+          'Arial', 
+          '"Noto Sans"', 
+          '"PingFang SC"', 
+          '"Hiragino Sans GB"', 
+          '"Microsoft YaHei"', 
+          '"WenQuanYi Micro Hei"', 
+          'sans-serif'
+        ],
       },
       width: {
         '128': '32rem',

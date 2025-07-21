@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "title": "A Great App Makes Your Life Better",
+    "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+    "downloadNow": "Download App Now",
+    "downloadApple": "Download on Apple Store",
+    "downloadGoogle": "Get it on Google Play"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "screenshots": "Screenshots",
+    "howToUse": "How to Use",
+    "download": "Download",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Our App",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.",
+    "features": {
+      "creativeDesign": {
+        "title": "Creative Design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+      },
+      "easyToUse": {
+        "title": "Easy to Use",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+      },
+      "bestUX": {
+        "title": "Best User Experience",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit."
+      }
+    }
+  },
+  "layout": {
+    "title": "App Landing Page",
+    "description": "A great app makes your life better",
+    "language": "Language",
+    "switchToEnglish": "Switch to English",
+    "switchToChinese": "切换到中文"
+  },
+  "contact": {
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}
